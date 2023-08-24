@@ -1,0 +1,12 @@
+name: <your_env_name>
+channels:
+- conda-forge
+dependencies:
+- python
+- jupyterlab>=3.0
+- jupyter
+- ipykernel
+- jupyter-lsp
+- jupyterlab-lsp
+- python-language-server
+- jedi=0.17.2 # pinned because one of the language server packages needs it precisely pinned here

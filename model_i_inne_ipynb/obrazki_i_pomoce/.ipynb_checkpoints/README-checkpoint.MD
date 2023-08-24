@@ -1,0 +1,1 @@
+Wartości wszystkich parametrów modelu wzięte z artykułu ../ip_vs_friction_astrom.pdf

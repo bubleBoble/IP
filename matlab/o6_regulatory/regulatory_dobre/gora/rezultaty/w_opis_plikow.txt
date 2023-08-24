@@ -1,0 +1,43 @@
+Zwyczajny LQR:
+	[] vid_0a_LQR_szybkie_zmiany.mp4
+		- szybki ruch wózka, duże wychylenie wahadła
+	[] vid_0b_LQR_wolne_zmiany.mp4
+		- wolny ruch wózka, małe wychylenie wahadła
+
+Zwyczajny LQR z zakłóceniami - pokazane, że nie odrzuca
+	[] vid_1_LQR.mp4
+	[] vid_2_LQI.mp4
+
+LQR na rozszerzonym systemie o zmienną całkową z pozycji wózka - pokazane, że odrzuca zakłócenia
+	[] vid_3_LQI.mp4
+
+LQR na systemie rozszerzonym o sygnał sterujący jako zmienna stanu
+pokazane, że dla podanych wartości Q i R jest równoważny vid_0a.
+Pokazane, że przez zmniejszenie wartości pochodnej u wpływa się na przyśpieszenia wózka i wahadła
+(lepiej niż przy vid_7*)
+	[] vid_4_LQR_stan_z_u_ograniczenie_podchodej_u.mp4
+	[] vid_8 
+
+LQR na systemie rozszerzonym o sygnał sterujący jako zmienna stanu
+analogicznie do vid_0a i vid_0b
+	[] vid_5a_szybkie_zmiany_sys_rozszerzony.mp4
+	[] vid_5b_wolne_zmiany_sys_rozszerzony.mp4
+
+Porównanie czy skrypt z rozszerzoną wersją funkcji celu dla LQR pokrywa
+się z tą nierozszerzoną przy odpowiednich Qd, Nd, Np
+	[] vid_6a_rozszerzona_fceluLQR_porownanie_z_nierozszerzonym_poprawnosc_ROZSZERZONA.png
+	[] vid_6b_rozszerzona_fceluLQR_porownanie_z_nierozszerzonym_poprawnosc_NIEROZSZERZONA.png
+
+Pokazane czy wprowadzenie kar za drugie pochodne xw i theta działa
+	[] vid_7a_LQR_rozszerzona_fcelu_PRZED
+	[] vid_7b_LQR_rozszerzona_fcelu_PO
+
+
+
+
+
+
+
+
+
+

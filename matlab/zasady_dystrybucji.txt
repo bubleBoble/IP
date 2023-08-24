@@ -1,0 +1,5 @@
+ogólnie na licencji studenckiej można dawać aplikacje tylko ludziom w obrębie instytucji naukowej
+na licencji commercial można rozsyłać wszędzie
+
+matlab runtime jest darmowy - jest potrzebny do odpalania wyprodukowanych .exe w matlabie
+można zainkludować matlab runtime w pliku .exe
